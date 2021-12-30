@@ -1,6 +1,14 @@
-// import "./style.css";
+import "./css/style.css";
+import Header from "./components/common/Header";
+import Footer from "./components/common/Footer";
+
 function App() {
-    return <div className="App"></div>;
+    return (
+        <div className="App">
+            <Header />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
